@@ -2,9 +2,12 @@
 Une application console pour gérer des tâches
 
 ## Fonctionnalités
-- Ajouter une tâche.
-- Voir la liste des tâches.
-
-## Instructions
-1. Télécharger le code.
-2. Lancer le script avec Python.
+Ajouter une tâche
+Afficher les tâches
+Supprimer une tâche
+Marquer une tâche comme terminée
+Sauvegarder les tâches dans un fichier
+Charger les tâches depuis un fichier
+Modifier une tâche
+Afficher uniquement les tâches non terminées
+Menu interactif pour gérer toutes les fonctionnalités
