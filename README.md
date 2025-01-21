@@ -25,22 +25,22 @@ To install Python for Windows:
 # Installation
   1. Clone the repository:
      
-      git clone https://github.com/your-username/Todo-list-EL-ALLEM-Maha-CDOF2.git  
-    cd Todo-list-EL-ALLEM-Maha-CDOF2
+      ``git clone https://github.com/your-username/Todo-list-EL-ALLEM-Maha-CDOF2.git  
+    cd Todo-list-EL-ALLEM-Maha-CDOF2``
 
   2. Install the application:
      If a setup.py file is included:
      
-     python setup.py install
+     ``python setup.py install``
     
   3. Run the application:
 
-     python todo_list.py
+     ``python todo_list.py``
 
 # Usage
    1. Start the program:
 
-      python todo_list.py
+      ``python todo_list.py``
 
    2.Follow the interactive menu to:
       - Add tasks
@@ -50,12 +50,8 @@ To install Python for Windows:
       - Delete tasks
       - Save or load tasks from a file
       - Exit the program
-# License
-  This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Author
-  EL ALLEM Maha
-       
+
 
      
   
