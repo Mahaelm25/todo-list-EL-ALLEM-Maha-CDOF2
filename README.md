@@ -42,9 +42,9 @@ To install Python for Windows:
 
       ``python todo_list.py``
 
-   2.Follow the interactive menu to:
+   2. Follow the interactive menu to:
       - Add tasks
-     -  View all tasks or only pending tasks
+      - View all tasks or only pending tasks
       - Mark tasks as complete
       - Edit existing tasks
       - Delete tasks
