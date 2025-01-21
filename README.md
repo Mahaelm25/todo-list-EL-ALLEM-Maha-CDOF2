@@ -1,5 +1,5 @@
 ## Todo-list-EL-ALLEM-Maha-CDOF2
-A simple console-based Python application for managing tasks interactively. The application allows you to add, view, edit, mark as complete, or delete tasks.
+A straightforward Python console application designed for task management. It allows users to add, view, update, mark tasks as completed, or delete them, all through an interactive interface.
 
 # Features
   - Add a Task: Record a new task to complete.
