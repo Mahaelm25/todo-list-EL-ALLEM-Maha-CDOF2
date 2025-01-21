@@ -47,10 +47,6 @@ To install Python for Windows:
       - Edit existing tasks
       - Delete tasks
       - Save or load tasks from a file
-      - Exit the program
       - Say goodbye
-
-
-     
-  
-
+      - Exit the program
+      

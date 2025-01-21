@@ -33,7 +33,7 @@ def delete_task():
         else:
             print("Error: Invalid task number.")
     except ValueError:
-        print("Error: Please enter a valid number.")
+        print("Error: Please enter a valid number?")
 
 def main():
     """Main loop to interact with the user."""
