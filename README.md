@@ -16,11 +16,11 @@ A simple console-based Python application for managing tasks interactively. The 
 Python 3.x
 Check if Python is installed on your system:
 
-```python --version 
+```python --version```
 
 To install Python for Windows:
 
-winget install --id Python.Python.3
+``winget install --id Python.Python.3``
 
 # Installation
   1. Clone the repository:
