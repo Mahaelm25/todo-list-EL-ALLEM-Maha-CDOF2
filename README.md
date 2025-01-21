@@ -5,7 +5,6 @@ A straightforward Python console application designed for task management. It al
   - Add a Task: Record a new task to complete.
   - View Tasks: List all tasks with their status (DONE or PENDING).
   - Delete a Task: Remove a specific task from the list.
-  - Mark a Task as Complete: Indicate that a task has been completed.
   - Edit a Task: Update the description of an existing task.
   - View Pending Tasks Only: Filter tasks to show only those that are not completed.
   - Save Tasks to a File: Save tasks to disk for later access.
@@ -45,7 +44,6 @@ To install Python for Windows:
    2. Follow the interactive menu to:
       - Add tasks
       - View all tasks or only pending tasks
-      - Mark tasks as complete
       - Edit existing tasks
       - Delete tasks
       - Save or load tasks from a file
