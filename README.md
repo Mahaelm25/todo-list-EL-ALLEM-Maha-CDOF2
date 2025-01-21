@@ -48,7 +48,7 @@ To install Python for Windows:
       - Delete tasks
       - Save or load tasks from a file
       - Exit the program
-      - Say goodbay 
+      - Say goodbye
 
 
      
