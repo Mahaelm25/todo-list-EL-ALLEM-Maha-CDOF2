@@ -2,14 +2,14 @@
 A straightforward Python console application designed for task management. It allows users to add, view, update, mark tasks as completed, or delete them, all through an interactive interface.
 
 # Features
-  - Add a Task: Record a new task to complete.
-  - View Tasks: List all tasks with their status (DONE or PENDING).
-  - Delete a Task: Remove a specific task from the list.
-  - Edit a Task: Update the description of an existing task.
-  - View Pending Tasks Only: Filter tasks to show only those that are not completed.
-  - Save Tasks to a File: Save tasks to disk for later access.
-  - Load Tasks from a File: Restore tasks from a saved file.
-  - Interactive Menu: Easily navigate through all features.
+  - Add a Task: Add a new task to the to-do list.
+  - View Tasks: Display all tasks in the list.
+  - Delete a Task: Remove a task from the list by its number.
+  -  Edit a Task: Change the description of an existing task.
+  - View Pending Tasks Only: Show only tasks that are not marked as completed.
+  - Save Tasks to a File: Save tasks to a file for future access.
+  - Load Tasks from a File: Load tasks from a previously saved file.
+  - Interactive Menu: Navigate easily through the available options.
 
 # Prerequisites
 Python 3.x
