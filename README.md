@@ -26,7 +26,7 @@ To install Python for Windows:
   1. Clone the repository:
      
       ``git clone https://github.com/your-username/Todo-list-EL-ALLEM-Maha-CDOF2.git  
-    cd Todo-list-EL-ALLEM-Maha-CDOF2``
+        cd Todo-list-EL-ALLEM-Maha-CDOF2``
 
   2. Install the application:
      If a setup.py file is included:
