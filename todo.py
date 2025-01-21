@@ -1,5 +1,4 @@
-# Simple To-Do List Application
-
+#To-Do List Application
 tasks = []  # List to store tasks as dictionaries
 
 def add_task():
@@ -8,34 +7,17 @@ def add_task():
     if not task:
         print("Error: Task description cannot be empty. Try again.")
         return
-    tasks.append({"task": task, "completed": False})
+    tasks.append({"task": task})
     print(f"Task '{task}' added successfully!")
 
 def list_tasks():
-    """List all tasks with their completion status."""
+    """List all tasks."""
     if not tasks:
         print("\nNo tasks available!")
         return
     print("\nYour Tasks:")
     for index, task in enumerate(tasks, start=1):
-        status = "DONE" if task["completed"] else "PENDING"
-        print(f"{index}. {task['task']} [{status}]")
-
-def mark_complete():
-    """Mark a task as completed."""
-    if not tasks:
-        print("\nNo tasks available to mark as completed!")
-        return
-    try:
-        list_tasks()
-        index = int(input("\nEnter the task number to mark as complete: "))
-        if 1 <= index <= len(tasks):
-            tasks[index - 1]["completed"] = True
-            print(f"Task '{tasks[index - 1]['task']}' marked as DONE!")
-        else:
-            print("Error: Invalid task number.")
-    except ValueError:
-        print("Error: Please enter a valid number.")
+        print(f"{index}. {task['task']}")
 
 def delete_task():
     """Delete a task by its number."""
@@ -60,9 +42,8 @@ def main():
         print("\nMenu:")
         print("1. Add a Task")
         print("2. View Tasks")
-        print("3. Mark Task as DONE")
-        print("4. Delete Task")
-        print("5. Exit")
+        print("3. Delete Task")
+        print("4. Exit")
 
         choice = input("\nEnter your choice: ").strip()
 
@@ -71,14 +52,12 @@ def main():
         elif choice == "2":
             list_tasks()
         elif choice == "3":
-            mark_complete()
-        elif choice == "4":
             delete_task()
-        elif choice == "5":
+        elif choice == "4":
             print("Goodbye! Thanks for using the To-Do List.")
             break
         else:
-            print("Error: Invalid choice. Please choose between 1 and 5.")
+            print("Error: Invalid choice. Please choose between 1 and 4.")
 
 if __name__ == "__main__":
     main()
